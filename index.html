@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday</title>
+
+<style>
+body {
+    background: linear-gradient(to bottom, #ffe6f0, #ffffff);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    max-width: 520px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+h1 {
+    color: #ff4d88;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cake {
+    margin: 30px auto;
+    width: 200px;
+    position: relative;
+}
+
+.layer {
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.layer1 { background: #ffb3c6; }
+.layer2 { background: #ff8fab; }
+.layer3 { background: #ff4d6d; }
+
+.candle {
+    width: 10px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    top: -40px;
+    border-radius: 5px;
+}
+
+.flame {
+    width: 12px;
+    height: 12px;
+    background: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    left: -1px;
+    animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.c1 { left: 40px; }
+.c2 { left: 90px; }
+.c3 { left: 140px; }
+
+.footer {
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+<h1>Happy Birthday My Love</h1>
+
+<div class="cake">
+<div class="candle c1"><div class="flame"></div></div>
+<div class="candle c2"><div class="flame"></div></div>
+<div class="candle c3"><div class="flame"></div></div>
+
+<div class="layer layer3"></div>
+<div class="layer layer2"></div>
+<div class="layer layer1"></div>
+</div>
+
+<p>
+Today is special because you were born.<br><br>
+Thank you for your love, your kindness, and your smile.<br>
+You make my life brighter every day.<br><br>
+I wish you happiness, success, and all the love you deserve.
+</p>
+
+<div class="footer">
+— From your girl
+</div>
+</div>
+</body>
+</html>
